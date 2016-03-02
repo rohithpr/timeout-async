@@ -1,5 +1,5 @@
 (function(module) {
-  var ca = function(fun, timeout, defaults, args) {
+  var ta = function(fun, timeout, defaults, args) {
     var callback = args[args.length - 1]
     var done = false
     var custom_callack = function() {
@@ -24,5 +24,5 @@
     }, timeout)
   }
 
-  module.exports = ca
+  module.exports = ta
 })(module)
