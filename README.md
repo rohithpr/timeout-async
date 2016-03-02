@@ -1,5 +1,5 @@
 # timeout-async
-Provides the option to call a callback function with default arguments if an async function takes too long.
+Javascript library that provides the option to call a callback function with default arguments if an async function takes too long.
 
 ### Import the library
 
