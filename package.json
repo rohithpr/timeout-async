@@ -1,0 +1,11 @@
+{
+  "name": "timeout-async",
+  "version": "1.0.0",
+  "description": "Provides the option to call a callback function with default arguments if an async function takes too long.",
+  "private": false,
+  "main": "timeout-async.js",
+  "author": "Rohith PR",
+  "license": "MIT",
+  "dependencies": {
+  }
+}
