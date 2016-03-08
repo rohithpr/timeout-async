@@ -1,8 +1,8 @@
 (function(module) {
-  var ta = function(fun, timeout, defaults, args) {
+  var ta = function(callFunction, timeout, defaults, args) {
     var callback = args[args.length - 1]
     var done = false
-    var custom_callack = function() {
+    var customCallback = function() {
       if (done) {
       }
       else {
@@ -11,8 +11,8 @@
       }
     }
 
-    args[args.length - 1] = (custom_callack)
-    fun.apply(this, args)
+    args[args.length - 1] = (customCallback)
+    callFunction.apply(this, args)
 
     setTimeout(function() {
       if (done) {
